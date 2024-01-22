@@ -8,6 +8,7 @@ public interface TapaRepository {
     Tapa obtainTapa(String tapaId); //GetTapaUseCase
     void deleteTapa(String tapa); //DeleteTapaUseCases
     void updateTapa(Tapa tapa); //UpdateTapaUseCase
+    void saveTapa(Tapa tapa); //SaveTapaUseCase
 
 
 
