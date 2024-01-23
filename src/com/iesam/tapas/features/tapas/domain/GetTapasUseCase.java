@@ -10,6 +10,7 @@ public class GetTapasUseCase {
         this.tapaRepository = tapaRepository;
     }
 
+
     //Metodo ejecutar
     public ArrayList<Tapa> execute(){
         return tapaRepository.obtainTapas();

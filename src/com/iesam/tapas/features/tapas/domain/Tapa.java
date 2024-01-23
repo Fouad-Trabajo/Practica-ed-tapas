@@ -23,7 +23,6 @@ public class Tapa {
         this.ingredientes = ingredientes;
     }
 
-
     //Getter y Setter de la clase
     public String getId() {
         return id;
@@ -87,5 +86,20 @@ public class Tapa {
 
     public void setIngredientes(String ingredientes) {
         this.ingredientes = ingredientes;
+    }
+
+    //ToString
+    @Override
+    public String toString() {
+        return "\n Tapa " +
+                "\n ID = " + id  +
+                "\n NOMBRE = " + nombre +
+                "\n NOMBRE ESTABLECIMIENTO = " + nombreEstablecimiento +
+                "\n TOTAL PUNTOS = " + totalPuntos +
+                "\n MEDIA VOTOS = " + mediaVotos +
+                "\n NÚMERO PARTICIPANTES = " + numeroParticipantes +
+                "\n TOTAL VOTOS = " + totalVotos +
+                "\n INGREDIENTES = " + ingredientes + "\n";
+
     }
 }
